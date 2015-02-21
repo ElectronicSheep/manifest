@@ -2,11 +2,11 @@
 <manifest>
 
   <remote  name="origin"
-           fetch="git@github.com:KimuraTakaumi"/> 
+           fetch="git@github.com"/> 
 
   <default revision="master"
            remote="origin" />
 
-  <project path="crochet-freebsd" name="script/crochet-freebsd" />
+  <project path="KimuraTakaumi/crochet-freebsd" name="script/crochet-freebsd" />
 
 </manifest>
