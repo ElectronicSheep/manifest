@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="git://github.com"/> 
+  <remote  name="esheep"
+           fetch="git://github.com/ElectronicSheep/"/> 
 
   <default revision="master"
-           remote="github" />
+           remote="esheep" />
 
-  <project path="script/crochet-freebsd" name="KimuraTakaumi/crochet-freebsd" />
+  <project path="script/crochet-freebsd" remote="esheep" name="crochet-freebsd" revision="master" />
 
 </manifest>
